@@ -51,22 +51,24 @@ analyzer = CodeAnalyzer(
     ai_client
 )
 
+# analyzer.analyze_specific_commits(['{commit-id}','{commit-id}'])# 分析指定的 commit ids
+
 analyzer.commit_impact_analysis()
 ```
 
 ✅ 功能说明
-• ✨ 分析某个分支最近的提交变更；
-• 🧠 接入大模型（如 Qwen、OpenAI）自动生成影响分析报告；
-• 📄 支持 Markdown 格式的输出报告；
-• 📂 拆分多文件变更提交，提升 AI 分析质量。
+- ✨ 分析某个分支最近的提交变更；
+- 🧠 接入大模型（如 Qwen、OpenAI）自动生成影响分析报告；
+- 📄 支持 Markdown 格式的输出报告；
+- 📂 拆分多文件变更提交，提升 AI 分析质量。
 
 🔧 环境变量
-• ALI_AI_API_KEY：你的阿里云 DashScope API 密钥
+- ALI_AI_API_KEY：你的阿里云 DashScope API 密钥
 
 📦 依赖项
-• gitpython
-• requests
-• openai（或兼容 OpenAI 协议的服务）
+- gitpython
+- requests
+- openai（或兼容 OpenAI 协议的服务）
 
 📝 License
 
