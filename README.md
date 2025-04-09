@@ -31,8 +31,8 @@ AI_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 AI_API_KEY = os.getenv("ALI_AI_API_KEY")  # 设置你的环境变量
 AI_MODEL_NAME = "qwen-max-2025-01-25"
 
-project_repo = "/your-project-local-root-path"  # 项目的本地路径
-target_branch = "release-1.3.0"  # 需要分析哪个分支的 Commit 代码，且必须是本地已 pull 的分支
+project_repo = "/your-project-local-root-path"  # 项目从 git 上 clone 下来存放的本地路径
+target_branch = "release-1.3.0"  # 需要分析哪个分支的 Commit 代码
 max_count = 1  # 最多分析多少个 Commit
 max_files = 5  # 一个 Commit id 提交了超过 5 个文件则会拆分成多个请求
 commit_diff_unified = 50  # 每个代码变更块前后 50 行代码一起作为上下文交给 AI 分析
