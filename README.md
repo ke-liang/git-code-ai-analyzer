@@ -7,7 +7,7 @@
 未发布到 pypi 仓库，需要手动安装。
 
 ```bash
-pip install git+https://github.com/your-username/git-code-ai-analyzer.git
+pip install git+https://github.com/ke-liang/git-code-ai-analyzer.git
 ```
 
 或从源码安装：
