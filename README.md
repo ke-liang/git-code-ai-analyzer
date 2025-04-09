@@ -13,7 +13,7 @@ pip install git+https://github.com/ke-liang/git-code-ai-analyzer.git
 或从源码安装：
 
 ```
-git clone https://github.com/your-org/git-code-ai-analyzer.git
+git clone https://github.com/ke-liang/git-code-ai-analyzer.git
 cd git-code-ai-analyzer
 pip install .
 ```
