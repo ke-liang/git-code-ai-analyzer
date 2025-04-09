@@ -63,7 +63,7 @@ analyzer.commit_impact_analysis()
 - 📂 拆分多文件变更提交，提升 AI 分析质量。
 
 🔧 环境变量
-- ALI_AI_API_KEY：你的阿里云 DashScope API 密钥
+- ALI_AI_API_KEY：你的阿里大模型 API 密钥
 
 📦 依赖项
 - gitpython
